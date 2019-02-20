@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <!-- <question/> -->
+    <queTitle />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import category from '@/components/category.vue'
+import question from '@/components/question.vue'
+import answer from '@/components/answer.vue'
+import queTitle from '@/components/quetitle.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    question,
+    queTitle,
   }
 }
 </script>
